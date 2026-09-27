@@ -1,0 +1,21 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MinecraftManager.App.Views.SimpleLauncherView">
+  <Grid>
+    <StackPanel Margin="32" Spacing="16" MaxWidth="560" HorizontalAlignment="Center" VerticalAlignment="Center">
+      <TextBlock Text="Minecraft Manager" FontSize="30" FontWeight="SemiBold" HorizontalAlignment="Center" />
+      <TextBlock Text="{Binding PlayerNameLabel}" FontWeight="SemiBold" />
+      <TextBox Text="{Binding PlayerName}" PlaceholderText="Player" FontSize="18" />
+      <TextBlock Text="{Binding ValidationMessage}" Foreground="{DynamicResource SystemControlErrorTextForegroundBrush}" TextWrapping="Wrap" />
+      <Button Content="{Binding UpdateGameText}" Command="{Binding UpdateGameCommand}" HorizontalAlignment="Stretch" />
+      <Button Content="{Binding PlayText}" Command="{Binding PlayCommand}" IsEnabled="{Binding CanPlay}" Classes="primary" HorizontalAlignment="Stretch" FontSize="22" Padding="12" />
+      <StackPanel IsVisible="{Binding ShowProgress}" Spacing="8">
+        <ProgressBar Minimum="0" Maximum="100" Value="{Binding ProgressPercentage}" IsIndeterminate="{Binding IsProgressIndeterminate}" />
+        <TextBlock Text="{Binding ProgressMessage}" Classes="muted" TextWrapping="Wrap" />
+        <Button Content="{Binding CancelText}" Command="{Binding CancelCommand}" IsVisible="{Binding CancellationAvailable}" HorizontalAlignment="Left" />
+      </StackPanel>
+      <TextBlock Text="{Binding StatusMessage}" Classes="muted" TextWrapping="Wrap" HorizontalAlignment="Center" />
+      <Button Content="{Binding AdvancedText}" Command="{Binding ToggleAdvancedCommand}" HorizontalAlignment="Center" />
+    </StackPanel>
+  </Grid>
+</UserControl>

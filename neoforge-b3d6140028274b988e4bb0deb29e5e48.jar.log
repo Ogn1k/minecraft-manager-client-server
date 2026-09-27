@@ -1,0 +1,416 @@
+JVM info: Eclipse Adoptium - 21.0.10 - 21.0.10+7-LTS
+java.net.preferIPv4Stack=true
+Current Time: 10/09/2026 00:25:31
+Host: maven.neoforged.net [37.19.202.44]
+Host: libraries.minecraft.net [150.171.109.53]
+Host: launchermeta.mojang.com [150.171.109.53]
+Host: piston-meta.mojang.com [150.171.109.53]
+Host: sessionserver.mojang.com [150.171.109.53]
+Found java version 21.0.10
+Target Directory: C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic
+Extracting json
+Considering minecraft client jar
+Downloading library from https://piston-meta.mojang.com/v1/packages/ddac7e292d1695b3d85db993c4e4eb06aa636c56/1.21.1.json
+	Download completed: Checksum validated.
+Downloading library from https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar
+	Download completed: Checksum validated.
+Downloading libraries
+Found 0 additional library directories
+Considering library net.neoforged.fancymodloader:earlydisplay:4.0.44
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.44/earlydisplay-4.0.44.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged.fancymodloader:loader:4.0.44
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.44/loader-4.0.44.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged.accesstransformers:at-modlauncher:10.0.1
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:accesstransformers:10.0.1
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:bus:8.0.5
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:coremods:7.0.3
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar
+	Download completed: Checksum validated.
+Considering library cpw.mods:modlauncher:11.0.5
+Downloading library from https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:mergetool:2.0.0:api
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar
+	Download completed: Checksum validated.
+Considering library com.electronwill.night-config:toml:3.8.3
+Downloading library from https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar
+	Download completed: Checksum validated.
+Considering library com.electronwill.night-config:core:3.8.3
+Downloading library from https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:JarJarSelector:0.4.1
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:JarJarMetadata:0.4.1
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar
+	Download completed: Checksum validated.
+Considering library org.apache.maven:maven-artifact:3.8.5
+Downloading library from https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar
+	Download completed: Checksum validated.
+Considering library net.jodah:typetools:0.6.3
+Downloading library from https://maven.neoforged.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar
+	Download completed: Checksum validated.
+Considering library net.minecrell:terminalconsoleappender:1.3.0
+Downloading library from https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar
+	Download completed: Checksum validated.
+Considering library net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7
+Downloading library from https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar
+	Download completed: Checksum validated.
+Considering library org.openjdk.nashorn:nashorn-core:15.4
+Downloading library from https://maven.neoforged.net/releases/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar
+	Download completed: Checksum validated.
+Considering library org.apache.commons:commons-lang3:3.14.0
+Downloading library from https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+	Download completed: Checksum validated.
+Considering library cpw.mods:bootstraplauncher:2.0.2
+Downloading library from https://maven.neoforged.net/releases/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar
+	Download completed: Checksum validated.
+Considering library cpw.mods:securejarhandler:3.0.8
+Downloading library from https://maven.neoforged.net/releases/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm-commons:9.10.1
+Downloading library from https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm-util:9.10.1
+Downloading library from https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm-analysis:9.10.1
+Downloading library from https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm-tree:9.10.1
+Downloading library from https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm:9.10.1
+Downloading library from https://maven.neoforged.net/releases/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:JarJarFileSystems:0.4.1
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar
+	Download completed: Checksum validated.
+Considering library net.sf.jopt-simple:jopt-simple:5.0.4
+Downloading library from https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+	Download completed: Checksum validated.
+Considering library org.slf4j:slf4j-api:2.0.9
+Downloading library from https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar
+	Download completed: Checksum validated.
+Considering library org.antlr:antlr4-runtime:4.13.1
+Downloading library from https://maven.neoforged.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar
+	Download completed: Checksum validated.
+Considering library com.mojang:logging:1.2.7
+Downloading library from https://libraries.minecraft.net/com/mojang/logging/1.2.7/logging-1.2.7.jar
+	Download completed: Checksum validated.
+Considering library org.apache.logging.log4j:log4j-slf4j2-impl:2.22.1
+Downloading library from https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar
+	Download completed: Checksum validated.
+Considering library org.apache.logging.log4j:log4j-core:2.22.1
+Downloading library from https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar
+	Download completed: Checksum validated.
+Considering library org.apache.logging.log4j:log4j-api:2.22.1
+Downloading library from https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar
+	Download completed: Checksum validated.
+Considering library org.jline:jline-reader:3.20.0
+Downloading library from https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar
+	Download completed: Checksum validated.
+Considering library org.jline:jline-terminal:3.20.0
+Downloading library from https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar
+	Download completed: Checksum validated.
+Considering library commons-io:commons-io:2.15.1
+Downloading library from https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+	Download completed: Checksum validated.
+Considering library net.minecraftforge:srgutils:0.4.15
+Downloading library from https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar
+	Download completed: Checksum validated.
+Considering library com.google.guava:guava:32.1.2-jre
+Downloading library from https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar
+	Download completed: Checksum validated.
+Considering library com.google.guava:failureaccess:1.0.1
+Downloading library from https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+	Download completed: Checksum validated.
+Considering library com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+Downloading library from https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+	Download completed: Checksum validated.
+Considering library com.google.code.findbugs:jsr305:3.0.2
+Downloading library from https://libraries.minecraft.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+	Download completed: Checksum validated.
+Considering library org.checkerframework:checker-qual:3.33.0
+Downloading library from https://libraries.minecraft.net/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar
+	Download completed: Checksum validated.
+Considering library com.google.errorprone:error_prone_annotations:2.18.0
+Downloading library from https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar
+	Download completed: Checksum validated.
+Considering library com.google.j2objc:j2objc-annotations:2.8
+Downloading library from https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar
+	Download completed: Checksum validated.
+Considering library com.google.code.gson:gson:2.10.1
+Downloading library from https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+	Download completed: Checksum validated.
+Considering library org.codehaus.plexus:plexus-utils:3.3.0
+Downloading library from https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar
+	Download completed: Checksum validated.
+Considering library com.machinezoo.noexception:noexception:1.7.1
+Downloading library from https://maven.neoforged.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged.fancymodloader:earlydisplay:4.0.44
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\fancymodloader\earlydisplay\4.0.44\earlydisplay-4.0.44.jar exists. Checksum valid.
+Considering library net.neoforged.fancymodloader:loader:4.0.44
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\fancymodloader\loader\4.0.44\loader-4.0.44.jar exists. Checksum valid.
+Considering library net.neoforged.accesstransformers:at-modlauncher:10.0.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\accesstransformers\at-modlauncher\10.0.1\at-modlauncher-10.0.1.jar exists. Checksum valid.
+Considering library net.neoforged:accesstransformers:10.0.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\accesstransformers\10.0.1\accesstransformers-10.0.1.jar exists. Checksum valid.
+Considering library net.neoforged:bus:8.0.5
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\bus\8.0.5\bus-8.0.5.jar exists. Checksum valid.
+Considering library net.neoforged:coremods:7.0.3
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\coremods\7.0.3\coremods-7.0.3.jar exists. Checksum valid.
+Considering library cpw.mods:modlauncher:11.0.5
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\cpw\mods\modlauncher\11.0.5\modlauncher-11.0.5.jar exists. Checksum valid.
+Considering library net.neoforged:mergetool:2.0.0:api
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\mergetool\2.0.0\mergetool-2.0.0-api.jar exists. Checksum valid.
+Considering library com.electronwill.night-config:toml:3.8.3
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\electronwill\night-config\toml\3.8.3\toml-3.8.3.jar exists. Checksum valid.
+Considering library com.electronwill.night-config:core:3.8.3
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\electronwill\night-config\core\3.8.3\core-3.8.3.jar exists. Checksum valid.
+Considering library net.neoforged:JarJarSelector:0.4.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\JarJarSelector\0.4.1\JarJarSelector-0.4.1.jar exists. Checksum valid.
+Considering library net.neoforged:JarJarMetadata:0.4.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\JarJarMetadata\0.4.1\JarJarMetadata-0.4.1.jar exists. Checksum valid.
+Considering library org.apache.maven:maven-artifact:3.8.5
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\maven\maven-artifact\3.8.5\maven-artifact-3.8.5.jar exists. Checksum valid.
+Considering library net.jodah:typetools:0.6.3
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\jodah\typetools\0.6.3\typetools-0.6.3.jar exists. Checksum valid.
+Considering library net.minecrell:terminalconsoleappender:1.3.0
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\minecrell\terminalconsoleappender\1.3.0\terminalconsoleappender-1.3.0.jar exists. Checksum valid.
+Considering library net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\fabricmc\sponge-mixin\0.15.2+mixin.0.8.7\sponge-mixin-0.15.2+mixin.0.8.7.jar exists. Checksum valid.
+Considering library org.openjdk.nashorn:nashorn-core:15.4
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\openjdk\nashorn\nashorn-core\15.4\nashorn-core-15.4.jar exists. Checksum valid.
+Considering library org.apache.commons:commons-lang3:3.14.0
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar exists. Checksum valid.
+Considering library cpw.mods:bootstraplauncher:2.0.2
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\cpw\mods\bootstraplauncher\2.0.2\bootstraplauncher-2.0.2.jar exists. Checksum valid.
+Considering library cpw.mods:securejarhandler:3.0.8
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\cpw\mods\securejarhandler\3.0.8\securejarhandler-3.0.8.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-commons:9.10.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-commons\9.10.1\asm-commons-9.10.1.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-util:9.10.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-util\9.10.1\asm-util-9.10.1.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-analysis:9.10.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-analysis\9.10.1\asm-analysis-9.10.1.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-tree:9.10.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-tree\9.10.1\asm-tree-9.10.1.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm:9.10.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm\9.10.1\asm-9.10.1.jar exists. Checksum valid.
+Considering library net.neoforged:JarJarFileSystems:0.4.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\JarJarFileSystems\0.4.1\JarJarFileSystems-0.4.1.jar exists. Checksum valid.
+Considering library net.sf.jopt-simple:jopt-simple:5.0.4
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar exists. Checksum valid.
+Considering library org.slf4j:slf4j-api:2.0.9
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar exists. Checksum valid.
+Considering library org.antlr:antlr4-runtime:4.13.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar exists. Checksum valid.
+Considering library com.mojang:logging:1.2.7
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\mojang\logging\1.2.7\logging-1.2.7.jar exists. Checksum valid.
+Considering library org.apache.logging.log4j:log4j-slf4j2-impl:2.22.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar exists. Checksum valid.
+Considering library org.apache.logging.log4j:log4j-core:2.22.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar exists. Checksum valid.
+Considering library org.apache.logging.log4j:log4j-api:2.22.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar exists. Checksum valid.
+Considering library org.jline:jline-reader:3.20.0
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\jline\jline-reader\3.20.0\jline-reader-3.20.0.jar exists. Checksum valid.
+Considering library org.jline:jline-terminal:3.20.0
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\jline\jline-terminal\3.20.0\jline-terminal-3.20.0.jar exists. Checksum valid.
+Considering library commons-io:commons-io:2.15.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar exists. Checksum valid.
+Considering library net.minecraftforge:srgutils:0.4.15
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\minecraftforge\srgutils\0.4.15\srgutils-0.4.15.jar exists. Checksum valid.
+Considering library com.google.guava:guava:32.1.2-jre
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar exists. Checksum valid.
+Considering library com.google.guava:failureaccess:1.0.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar exists. Checksum valid.
+Considering library com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar exists. Checksum valid.
+Considering library com.google.code.findbugs:jsr305:3.0.2
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar exists. Checksum valid.
+Considering library org.checkerframework:checker-qual:3.33.0
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar exists. Checksum valid.
+Considering library com.google.errorprone:error_prone_annotations:2.18.0
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar exists. Checksum valid.
+Considering library com.google.j2objc:j2objc-annotations:2.8
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar exists. Checksum valid.
+Considering library com.google.code.gson:gson:2.10.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar exists. Checksum valid.
+Considering library org.codehaus.plexus:plexus-utils:3.3.0
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar exists. Checksum valid.
+Considering library com.machinezoo.noexception:noexception:1.7.1
+File C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\machinezoo\noexception\noexception\1.7.1\noexception-1.7.1.jar exists. Checksum valid.
+Considering library net.neoforged:neoform:1.21.1-20240808.144430@zip
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip
+	Download completed: Checksum validated.
+Considering library net.neoforged.installertools:binarypatcher:2.1.2:fatjar
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:AutoRenamingTool:2.0.3:all
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged.installertools:installertools:2.1.2
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:srgutils:1.0.0
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar
+	Download completed: Checksum validated.
+Considering library net.md-5:SpecialSource:1.11.0
+Downloading library from https://maven.neoforged.net/releases/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar
+	Download completed: Checksum validated.
+Considering library com.google.code.gson:gson:2.8.9
+Downloading library from https://libraries.minecraft.net/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+	Download completed: Checksum validated.
+Considering library de.siegmar:fastcsv:2.0.0
+Downloading library from https://maven.neoforged.net/releases/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm-commons:9.3
+Downloading library from https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged.installertools:cli-utils:2.1.2
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar
+	Download completed: Checksum validated.
+Considering library com.google.guava:guava:20.0
+Downloading library from https://maven.neoforged.net/releases/com/google/guava/guava/20.0/guava-20.0.jar
+	Download completed: Checksum validated.
+Considering library com.opencsv:opencsv:4.4
+Downloading library from https://maven.neoforged.net/releases/com/opencsv/opencsv/4.4/opencsv-4.4.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm-analysis:9.3
+Downloading library from https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm-tree:9.3
+Downloading library from https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar
+	Download completed: Checksum validated.
+Considering library org.ow2.asm:asm:9.3
+Downloading library from https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar
+	Download completed: Checksum validated.
+Considering library org.apache.commons:commons-text:1.3
+Downloading library from https://maven.neoforged.net/releases/org/apache/commons/commons-text/1.3/commons-text-1.3.jar
+	Download completed: Checksum validated.
+Considering library org.apache.commons:commons-lang3:3.8.1
+Downloading library from https://maven.neoforged.net/releases/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+	Download completed: Checksum validated.
+Considering library commons-beanutils:commons-beanutils:1.9.3
+Downloading library from https://maven.neoforged.net/releases/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar
+	Download completed: Checksum validated.
+Considering library org.apache.commons:commons-collections4:4.2
+Downloading library from https://maven.neoforged.net/releases/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar
+	Download completed: Checksum validated.
+Considering library commons-logging:commons-logging:1.2
+Downloading library from https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+	Download completed: Checksum validated.
+Considering library commons-collections:commons-collections:3.2.2
+Downloading library from https://maven.neoforged.net/releases/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged.installertools:jarsplitter:2.1.2
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar
+	Download completed: Checksum validated.
+Considering library net.neoforged:neoforge:21.1.250:universal
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.250/neoforge-21.1.250-universal.jar
+	Download completed: Checksum validated.
+Created Temporary Directory: C:\Users\KHLULH~1\AppData\Local\Temp\neoforge_installer9132101268844638002
+  Extracting: /data/client.lzma
+Building Processors
+===============================================================================
+Processor: net.neoforged.installertools:installertools -> MCP_DATA
+  MainClass: net.neoforged.installertools.ConsoleTool
+  Classpath:
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\installertools\installertools\2.1.2\installertools-2.1.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\installertools\installertools\2.1.2\installertools-2.1.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\srgutils\1.0.0\srgutils-1.0.0.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-commons\9.3\asm-commons-9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\installertools\cli-utils\2.1.2\cli-utils-2.1.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\guava\guava\20.0\guava-20.0.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\opencsv\opencsv\4.4\opencsv-4.4.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-analysis\9.3\asm-analysis-9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-tree\9.3\asm-tree-9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm\9.3\asm-9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\commons\commons-text\1.3\commons-text-1.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar
+  Args: --task, MCP_DATA, --input, C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\neoform\1.21.1-20240808.144430\neoform-1.21.1-20240808.144430.zip, --output, C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\neoform\1.21.1-20240808.144430\neoform-1.21.1-20240808.144430-mappings.txt, --key, mappings
+Task: MCP_DATA
+Input:  C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\neoform\1.21.1-20240808.144430\neoform-1.21.1-20240808.144430.zip
+Output: C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\neoform\1.21.1-20240808.144430\neoform-1.21.1-20240808.144430-mappings.txt
+Key:    mappings
+Extracting: config/joined.tsrg
+===============================================================================
+Processor: net.neoforged.installertools:installertools -> DOWNLOAD_MOJMAPS
+  MainClass: net.neoforged.installertools.ConsoleTool
+  Classpath:
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\installertools\installertools\2.1.2\installertools-2.1.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\installertools\installertools\2.1.2\installertools-2.1.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\srgutils\1.0.0\srgutils-1.0.0.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-commons\9.3\asm-commons-9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\neoforged\installertools\cli-utils\2.1.2\cli-utils-2.1.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\google\guava\guava\20.0\guava-20.0.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\com\opencsv\opencsv\4.4\opencsv-4.4.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-analysis\9.3\asm-analysis-9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm-tree\9.3\asm-tree-9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\ow2\asm\asm\9.3\asm-9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\commons\commons-text\1.3\commons-text-1.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+    C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar
+  Args: --task, DOWNLOAD_MOJMAPS, --version, 1.21.1, --side, client, --output, C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\minecraft\client\1.21.1-20240808.144430\client-1.21.1-20240808.144430-mappings.txt
+Task: DOWNLOAD_MOJMAPS
+MC Version: 1.21.1
+Side:       client
+Output:     C:\Users\Khlulhloo\Documents\GitHub\minecraft-manager-client-server\.neoforge-diagnostic\libraries\net\minecraft\client\1.21.1-20240808.144430\client-1.21.1-20240808.144430-mappings.txt
+java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:601)
+	at java.base/sun.nio.ch.Net.connect(Net.java:590)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+	at java.base/java.net.URL.openStream(URL.java:1325)
+	at net.neoforged.installertools.DownloadMojmaps.process(DownloadMojmaps.java:71)
+	at net.neoforged.installertools.ConsoleTool.main(ConsoleTool.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.minecraftforge.installer.actions.PostProcessors.process(PostProcessors.java:245)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:147)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Failed to run processor: java.net.ConnectException:Connection timed out: connect
+See log for more details.
+There was an error during installation

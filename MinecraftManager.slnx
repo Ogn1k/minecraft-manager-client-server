@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MinecraftManager.App/MinecraftManager.App.csproj" />
+    <Project Path="src/MinecraftManager.Core/MinecraftManager.Core.csproj" />
+    <Project Path="src/MinecraftManager.Infrastructure/MinecraftManager.Infrastructure.csproj" />
+    <Project Path="src/MinecraftManager.Server.Api/MinecraftManager.Server.Api.csproj" />
+    <Project Path="src/MinecraftManager.Server.Application/MinecraftManager.Server.Application.csproj" />
+    <Project Path="src/MinecraftManager.Server.Contracts/MinecraftManager.Server.Contracts.csproj" />
+    <Project Path="src/MinecraftManager.Server.Domain/MinecraftManager.Server.Domain.csproj" />
+    <Project Path="src/MinecraftManager.Server.Infrastructure/MinecraftManager.Server.Infrastructure.csproj" />
+    <Project Path="src/MinecraftManager.PackBuilder/MinecraftManager.PackBuilder.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MinecraftManager.Core.Tests/MinecraftManager.Core.Tests.csproj" />
+    <Project Path="tests/MinecraftManager.IntegrationTests/MinecraftManager.IntegrationTests.csproj" />
+    <Project Path="tests/MinecraftManager.Server.IntegrationTests/MinecraftManager.Server.IntegrationTests.csproj" />
+    <Project Path="tests/MinecraftManager.Server.UnitTests/MinecraftManager.Server.UnitTests.csproj" />
+    <Project Path="tests/MinecraftManager.App.Tests/MinecraftManager.App.Tests.csproj" />
+  </Folder>
+</Solution>

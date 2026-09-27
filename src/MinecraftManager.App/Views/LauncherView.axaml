@@ -1,0 +1,58 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MinecraftManager.App.Views.LauncherView">
+  <ScrollViewer>
+    <StackPanel Margin="32" Spacing="18" MaxWidth="760" HorizontalAlignment="Stretch">
+      <TextBlock Text="Launcher" Classes="heading" />
+      <Border Padding="18" BorderBrush="{DynamicResource ThemeBorderMidBrush}" BorderThickness="1" CornerRadius="8">
+        <StackPanel Spacing="12">
+          <TextBlock Text="Instance" FontWeight="SemiBold" />
+          <TextBlock Text="{Binding Instance.DisplayName, FallbackValue='No instance selected'}" />
+          <TextBlock Text="Offline profile" FontWeight="SemiBold" />
+          <ComboBox ItemsSource="{Binding Profiles}" SelectedItem="{Binding SelectedProfile}">
+            <ComboBox.ItemTemplate><DataTemplate><TextBlock Text="{Binding DisplayName}" /></DataTemplate></ComboBox.ItemTemplate>
+          </ComboBox>
+          <Grid ColumnDefinitions="*,Auto"><TextBox Text="{Binding NewProfileName}" PlaceholderText="Player name" /><Button Grid.Column="1" Margin="8,0,0,0" Content="Add Offline Profile" Command="{Binding AddOfflineProfileCommand}" /></Grid>
+          <TextBlock Text="Offline profiles work in single-player and compatible offline-mode servers. They do not authenticate ownership or online services." Classes="muted" TextWrapping="Wrap" />
+        </StackPanel>
+      </Border>
+      <Border Padding="18" BorderBrush="{DynamicResource ThemeBorderMidBrush}" BorderThickness="1" CornerRadius="8">
+        <StackPanel Spacing="10">
+          <TextBlock Text="Runtime" FontWeight="SemiBold" />
+          <TextBlock Text="{Binding RuntimeSummary}" />
+          <Grid ColumnDefinitions="*,Auto"><TextBox Text="{Binding MinecraftVersion}" PlaceholderText="Minecraft version" /><Button Grid.Column="1" Margin="8,0,0,0" Content="Save Runtime" Command="{Binding ConfigureRuntimeCommand}" /></Grid>
+          <Grid ColumnDefinitions="*,*" ColumnSpacing="8"><ComboBox ItemsSource="{Binding LoaderChoices}" SelectedItem="{Binding SelectedLoader}" /><TextBox Grid.Column="1" Text="{Binding LoaderVersion}" PlaceholderText="Loader version (not needed for Vanilla)" /></Grid>
+          <Button Content="Repair Runtime" Command="{Binding RepairRuntimeCommand}" HorizontalAlignment="Left" />
+          <StackPanel IsVisible="{Binding IsRuntimeRepairing}" Spacing="8">
+            <ProgressBar Minimum="0" Maximum="100" Value="{Binding RuntimeProgressPercentage}" />
+            <TextBlock Text="{Binding RuntimeProgressMessage}" Classes="muted" TextWrapping="Wrap" />
+          </StackPanel>
+        </StackPanel>
+      </Border>
+      <Border Padding="18" BorderBrush="{DynamicResource ThemeBorderMidBrush}" BorderThickness="1" CornerRadius="8">
+        <StackPanel Spacing="10">
+          <TextBlock Text="Launch Settings" FontWeight="SemiBold" />
+          <CheckBox Content="Use custom Java executable" IsChecked="{Binding UseCustomJava}" />
+          <Grid ColumnDefinitions="*,Auto"><TextBox Text="{Binding CustomJavaPath}" PlaceholderText="Path to java/java.exe" IsEnabled="{Binding UseCustomJava}" /><Button Grid.Column="1" Margin="8,0,0,0" Content="Browse" Click="BrowseJava_Click" IsEnabled="{Binding UseCustomJava}" /></Grid>
+          <TextBlock Text="Memory (MB)" /><Grid ColumnDefinitions="*,*" ColumnSpacing="8"><NumericUpDown Minimum="256" Maximum="262144" Value="{Binding MinimumMemoryMb}" /><NumericUpDown Grid.Column="1" Minimum="256" Maximum="262144" Value="{Binding MaximumMemoryMb}" /></Grid>
+          <CheckBox Content="Fullscreen" IsChecked="{Binding Fullscreen}" />
+          <Grid ColumnDefinitions="*,*" ColumnSpacing="8"><NumericUpDown Minimum="320" Maximum="16384" Value="{Binding WindowWidth}" /><NumericUpDown Grid.Column="1" Minimum="240" Maximum="16384" Value="{Binding WindowHeight}" /></Grid>
+          <TextBlock Text="Additional JVM arguments (one per line)" /><TextBox Text="{Binding AdditionalJvmArguments}" AcceptsReturn="True" MinHeight="70" />
+          <Button Content="Save Launch Settings" Command="{Binding SaveLaunchSettingsCommand}" HorizontalAlignment="Left" />
+        </StackPanel>
+      </Border>
+      <Border Padding="18" BorderBrush="{DynamicResource AccentFillColorDefaultBrush}" BorderThickness="2" CornerRadius="8">
+        <StackPanel Spacing="12">
+          <TextBlock Text="Status" FontWeight="SemiBold" />
+          <TextBlock Text="{Binding ReadinessSummary}" TextWrapping="Wrap" />
+          <ItemsControl ItemsSource="{Binding Readiness.Issues}"><ItemsControl.ItemTemplate><DataTemplate><TextBlock Text="{Binding Message}" TextWrapping="Wrap" /></DataTemplate></ItemsControl.ItemTemplate></ItemsControl>
+          <Button Content="Review Pack Update" Command="{Binding ReviewUpdateCommand}" HorizontalAlignment="Left" />
+          <Button Content="PLAY" Command="{Binding PlayCommand}" IsEnabled="{Binding CanPlay}" Classes="primary" HorizontalAlignment="Stretch" FontSize="20" />
+          <Button Content="Stop Minecraft" Command="{Binding StopCommand}" HorizontalAlignment="Left" />
+          <StackPanel Orientation="Horizontal" Spacing="8"><Button Content="Open Instance Folder" Command="{Binding OpenInstanceFolderCommand}" /><Button Content="Open Logs" Command="{Binding OpenLogsCommand}" /></StackPanel>
+          <TextBlock Text="{Binding Status}" Classes="muted" TextWrapping="Wrap" />
+        </StackPanel>
+      </Border>
+    </StackPanel>
+  </ScrollViewer>
+</UserControl>

@@ -1,0 +1,50 @@
+name: Client CI
+
+env:
+  AVALONIA_TELEMETRY_OPTOUT: '1'
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - '*.props'
+      - '*.slnx'
+      - 'global.json'
+      - '.github/workflows/client-ci.yml'
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - run: dotnet restore MinecraftManager.slnx
+      - run: dotnet build MinecraftManager.slnx --configuration Release --no-restore
+      - run: dotnet test MinecraftManager.slnx --configuration Release --no-build --no-restore
+
+  publish:
+    runs-on: windows-latest
+    needs: test
+    strategy:
+      matrix:
+        rid: [win-x64, win-arm64, linux-x64, linux-arm64]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - run: dotnet publish src/MinecraftManager.App/MinecraftManager.App.csproj --configuration Release --runtime ${{ matrix.rid }} --self-contained true --output artifacts/${{ matrix.rid }} -p:PublishSingleFile=false
+      - uses: actions/upload-artifact@v4
+        with:
+          name: minecraft-manager-${{ matrix.rid }}
+          path: artifacts/${{ matrix.rid }}

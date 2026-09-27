@@ -1,0 +1,23 @@
+name: server-ci
+
+on:
+  push:
+    paths: ["src/MinecraftManager.Server.*/**", "src/MinecraftManager.PackBuilder/**", "tests/MinecraftManager.Server.*/**", "Directory.*", "global.json", ".github/workflows/server-ci.yml"]
+  pull_request:
+    paths: ["src/MinecraftManager.Server.*/**", "src/MinecraftManager.PackBuilder/**", "tests/MinecraftManager.Server.*/**", "Directory.*", "global.json", ".github/workflows/server-ci.yml"]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - run: dotnet restore MinecraftManager.slnx
+      - run: dotnet build src/MinecraftManager.Server.Api/MinecraftManager.Server.Api.csproj -c Release --no-restore
+      - run: dotnet test tests/MinecraftManager.Server.UnitTests/MinecraftManager.Server.UnitTests.csproj -c Release --no-restore
+      - run: dotnet test tests/MinecraftManager.Server.IntegrationTests/MinecraftManager.Server.IntegrationTests.csproj -c Release --no-restore

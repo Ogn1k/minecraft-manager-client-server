@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\MinecraftManager.Server.Contracts\MinecraftManager.Server.Contracts.csproj" />
+    <ProjectReference Include="..\MinecraftManager.Server.Domain\MinecraftManager.Server.Domain.csproj" />
+  </ItemGroup>
+</Project>
